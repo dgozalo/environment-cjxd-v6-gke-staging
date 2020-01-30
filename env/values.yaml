@@ -18,7 +18,7 @@ expose:
     http: "true"
     tlsacme: "false"
     urltemplate: '{{.Service}}-{{.Namespace}}.{{.Domain}}'
-gotestssonew1:
+jx-gotestssonew1:
   sso:
     domain: gkecjxd6.dgozalo.jenkins-x.rocks
     enabled: true
