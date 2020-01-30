@@ -18,11 +18,11 @@ expose:
     http: "true"
     tlsacme: "false"
     urltemplate: '{{.Service}}-{{.Namespace}}.{{.Domain}}'
-sso:
-  domain: gkecjxd6.dgozalo.jenkins-x.rocks
-  enabled: true
-  letsEncryptEnvironment: prod
 jenkins:
   Servers:
     Global: {}
 prow: {}
+sso:
+  domain: gkecjxd6.dgozalo.jenkins-x.rocks
+  enabled: true
+  letsEncryptEnvironment: prod
