@@ -22,3 +22,9 @@ jenkins:
   Servers:
     Global: {}
 prow: {}
+
+gotestssonew1:
+  sso:
+    enabled: true
+    domain: gkecjxd6.dgozalo.jenkins-x.rocks
+    letsEncryptEnvironment: prod
