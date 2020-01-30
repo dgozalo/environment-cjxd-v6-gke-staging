@@ -1,8 +1,12 @@
 env:
 - name: DEPLOY_NAMESPACE
   value: jx-staging
+- name: JX_LOG_LEVEL
+  value: debug
 pipelineConfig:
   env:
   - name: DEPLOY_NAMESPACE
     value: jx-staging
+  - name: JX_LOG_LEVEL
+    value: debug
   pipelines: {}
