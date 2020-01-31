@@ -5,3 +5,6 @@ dependencies:
 - name: gotestnewbuildpack3
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.1
+- name: gotestnewbuildpack4
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 0.0.1
